@@ -69,8 +69,8 @@ img{max-width:100%;display:block}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
-html[lang="zh"] .lang-en{display:none}
-html:not([lang="zh"]) .lang-zh{display:none}
+html[lang^="zh"] .lang-en{display:none}
+html:not([lang^="zh"]) .lang-zh{display:none}
 :focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:4px}
 .skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;padding:10px 16px;z-index:100}
 .skip:focus{left:12px;top:12px}
